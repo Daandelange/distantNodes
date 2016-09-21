@@ -9,3 +9,18 @@
 
 #pragma once
 
+#include "baseNode.h"
+
+template<class T>
+class nodePin {
+	
+public:
+	nodePin();
+	~nodePin();
+	
+private:
+	
+protected:
+	T value;
+	baseNode& parentNode;
+};

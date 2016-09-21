@@ -27,6 +27,11 @@ class baseNode {
 public:
 	baseNode( nodeHost& _host, const string& _defaultName = "baseNode");
 	virtual ~baseNode();
+	
+	// null node reference
+	static shared_ptr<baseNode> nullNode;
+	
+	// utils
 	const string& setName( const string& _name );
 	const string& getName();
 	
@@ -45,8 +50,8 @@ private:
 	string uniqueName;
 	nodeHost& host;
 	
-	// static vector<pins> inPins;
-	// static vector<pins> outPins;
+	//vector<pins> inPins;
+	//vector<pins> outPins;
 };
 
 // PIN CLASS

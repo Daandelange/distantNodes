@@ -33,8 +33,6 @@ private:
 public:
 	~nodeHost();
 	
-	
-	static shared_ptr<baseNode> nullNode;
 	shared_ptr<baseNode>& findNode( baseNode& _node );
 	bool registerNode( baseNode& _node );
 	bool removeNode( baseNode& _node );
