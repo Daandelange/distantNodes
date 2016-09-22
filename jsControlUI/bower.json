@@ -1,0 +1,25 @@
+{
+  "name": "distantNodes",
+  "description": "Nodal programation control interface",
+  "main": "main.js",
+  "authors": [
+    "Daan de Lange"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "distantNodes",
+    "nodal",
+    "programation"
+  ],
+  "homepage": "https://github.com/Daandelange/distantNodes",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "klayjs-noflo": "^0.3.0"
+  }
+}
