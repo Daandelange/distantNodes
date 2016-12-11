@@ -26,7 +26,7 @@ shared_ptr<baseNode>& nodeHost::findNode(baseNode &_node){
 	}
 	
 	// 404 not found
-	return nullNode;
+	return baseNode::nullNode;
 }
 
 bool nodeHost::registerNode(baseNode& _node){
